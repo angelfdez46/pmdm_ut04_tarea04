@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">pmdm_ut04_tarea04</string>
+    <string name="enviar">Send</string>
+    <string name="encuesta_exito">Thanks for your answer! /n We recomend you to visti Cieza</string>
+    <string name="encuesta_error">Please, complete the survey before submitting</string>
+    <string name="textoBienvenida">Welcome to Cieza</string>
+    <string name="textoInformacion">Click the button to complete the survey</string>
+</resources>

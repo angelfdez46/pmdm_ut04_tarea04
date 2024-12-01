@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name" translatable="false">pmdm_ut04_tarea04</string>
+    <string name="ir_a_encuesta" translatable="false">+</string>
+    <string name="opinion">Por favor, cuéntanos qué te gustaría visitar en Cieza:</string>
+    <string name="enviar">Enviar</string>
+    <string name="encuesta_error">Por favor, completa la encuesta antes de enviarla.</string>
+    <string name="textoBienvenida">Bienvenidos a Cieza</string>
+    <string name="textoInformacion">Haz clic en el botón para completar la encuesta.</string>
+    <string name="cieza" translatable="false">Cieza</string>
+    <string name="encuesta_exito">¡Gracias por tu respuesta!/n Te recomendamos visitar Cieza.</string>
+</resources>

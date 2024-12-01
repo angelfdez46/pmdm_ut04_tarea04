@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Encuesta">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/tituloEncuesta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Encuesta"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="16dp"/>
+
+    <!-- EditText para la respuesta -->
+    <EditText
+        android:id="@+id/respuestaEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Escribe tu respuesta aquí"
+        app:layout_constraintTop_toBottomOf="@+id/tituloEncuesta"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp"
+        android:padding="16dp" />
+
+    <!-- Botón para enviar la respuesta -->
+    <Button
+        android:id="@+id/enviarButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar"
+        app:layout_constraintTop_toBottomOf="@+id/respuestaEditText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp"
+        android:padding="12dp"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"/>
+
+    <!-- TextView para mostrar el mensaje -->
+    <TextView
+        android:id="@+id/mensajeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nos importa tu opinión"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/enviarButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="32dp"
+        android:textColor="@android:color/black"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

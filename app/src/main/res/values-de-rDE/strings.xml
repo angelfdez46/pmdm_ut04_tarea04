@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">pmdm_ut04_tarea04</string>
+    <string name="enviar">Schicken</string>
+    <string name="cieza">Cieza</string>
+    <string name="encuesta_exito">Por favor, completa la encuesta antes de enviarla.</string>
+    <string name="encuesta_error">Bitte füllen Sie die Umfrage aus, bevor Sie sie absenden.</string>
+    <string name="textoBienvenida">Willkommen in Cieza</string>
+    <string name="textoInformacion">Klicken Sie auf die Schaltfläche, um die Umfrage abzuschließen.</string>
+</resources>
